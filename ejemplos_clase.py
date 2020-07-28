@@ -3,7 +3,7 @@
 Tipos de variables [Python]
 Ejemplos de clase
 ---------------------------
-Autor: Inove Coding School
+Autor: Inove Coding Schooll
 Version: 1.2
 
 Descripcion:
