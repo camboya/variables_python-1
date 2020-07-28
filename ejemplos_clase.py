@@ -10,7 +10,7 @@ Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 '''
 
-__author__ = "Inove Coding Schooll"
+__author__ = "Inove Coding Schoolll"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.2"
 
