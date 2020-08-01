@@ -35,12 +35,25 @@ def ej1():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    numero_1 = 4
+    numero_2 = 6
+    suma =  numero_1  + numero_2
+
+    print("El resultado de la suma es", suma)
+
 
     # Resta
+    numero_1 - numero_2
+    print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
+
 
     # División
+    division = numero_1 / numero_2
+    print('El resultado de dividir', numero_1, 'y', numero_2, 'es', division)
 
     # Multiplicación
+    multiplicacion = numero_1 * numero_2
+    print("El resultado de multiplicar", numero_1, "y", numero_2, "es", multiplicacion)
 
 
 def ej2():
@@ -50,16 +63,27 @@ def ej2():
     # Capture ambos datos e imprima su nombre completo
     print('Ingrese su nombre/s:')
     nombre = str(input())
+    print ("Nombre ingresado:", nombre)
 
     print('Ingrese su apellido/s:')
     apellido = str(input())
+    print("Apellido ingresado:", apellido)
+
+
 
     # Imprima su nombre completo
+    print("Nombre igresado", "Apellido ingresado")
 
     # Almacenar su nombre completo en una variable
     # nombre_completo = .....
+    nombre_completo= nombre, apellido
+
 
     # Imprimir la cantidad de letras que posee su nombre completo
+
+    nombre_completo = nombre, apellido
+
+    print(nombre_completo, 'tiene', fabiangamboa_len, 'caracteres')
 
 
 def ej3():
@@ -99,7 +123,7 @@ def ej4():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    # ej2()
-    # ej3()
-    # ej4()
+     # ej1()
+     #ej2()
+     ej3()
+     ej4()

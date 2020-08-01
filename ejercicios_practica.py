@@ -34,7 +34,22 @@ def ej1():
       ej: La suma entre 4.2 y 6.5 es 10.7
 
     '''
+numero_1= 6
+numero_2= 4
+suma = numero_1 + numero_2
+print('El resultado de la suma es:' + str(suma))
 
+resta = numero_1 - numero_2
+print('El resultado de la resta es:' + str(resta))
+
+multiplicacion = numero_1 * numero_2
+print('El resultado de la multiplicacion es:' + str(multiplicacion))
+
+division = numero_1 / numero_2
+print("El resultado de la division es: " + str(division))
+
+exponente = (numero_1 ** numero_2)
+print("El resultado del exponente es:" +  str(exponente))
 
 def ej2():
     print('Ejercicios de práctica numérica y cadenas')
@@ -55,6 +70,32 @@ def ej2():
       entienda de que se está hablando.
 
     '''
+print('Ingrese su nombre y apellido:,')
+nombre_apellido = str(input())
+print('Nombre y apellido ingresado:', nombre_apellido)
+
+print("Ingrese su DNI",)
+DNI_ = int(input())
+print("DNI ingresado:", DNI_)
+
+print("Ingrese la edad:,")
+edad_= int(input())
+print("ingrese su edad:",edad_)
+
+print('Ingrese su altura en metros:')
+altura = float(input())
+print('Edad ingresada:', altura)
+
+print("Ingrese nombre y apellido:", "","DNI",)
+nombre_completo = ("Nombre y apellido")
+DNI_ = str(input())
+print("nombre ingresado", "", "DNI",nombre_completo,DNI_)
+
+    
+print("Ingrese nomre y apellido," "Edad", "Altura:")
+
+
+
 
 
 def ej3():
@@ -89,6 +130,30 @@ def ej3():
     Cualquier duda con el método split pueden consultarla por el campus
 
     '''
+print("Ingrese nombre y apellido de la madre:")
+nombre_apellidomadre = str(input())
+print('Nombre y apellido de la madre ingresado:', nombre_apellidomadre)
+
+
+print("Ingrese nombre y apellido del padre:")
+nombre_apellidopadre = str(input())
+print("Nombre y apellido del padre ingresado:", nombre_apellidopadre)
+
+print("Ingrese nombre del hijo:")
+nombre_hijo = str(input())
+print = ("Ingrese el nombre del hijo:",nombre_hijo)
+
+nombredelpadre_ = "fabian gamboa"
+print = nombredelpadre_.split("2")
+
+
+
+
+
+
+
+
+
 
 
 def ej4():
@@ -149,6 +214,13 @@ def ej5():
 
     Cualquier duda con estos métodos pueden consultarla por el campus
     '''
+
+print("Ingrese nombre completo:")
+nombre_apellido = str(input())
+print('Nombre y apellido ingresado :', nombre_apellido)
+print('Nombre y apellido ingresado:',nombre_apellido.upper())
+print('Nombre y apellido ingresado:', nombre_apellido.capitalize())
+print('Nombre y apellido ingresado:', nombre_apellido.lower())
 
 
 if __name__ == '__main__':
